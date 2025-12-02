@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chaitanya Patgar — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="description" content="Personal portfolio — projects, skills, certifications and contact" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="wrap nav-inner">
+      <div class="brand">
+        <div class="logo">CP</div>
+        <div>
+          <div class="site-title">Chaitanya Patgar</div>
+          <div class="muted" style="font-size:0.85rem">Frontend Developer • Open for opportunities</div>
+        </div>
+      </div>
+
+      <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="#contact">Hire me</a>
+      </nav>
+
+      <button class="menu-toggle" aria-expanded="false" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- HERO / HOME -->
+    <section id="home" class="hero">
+      <div class="hero-card">
+        <div class="eyebrow">Hello — I build beautiful interfaces</div>
+        <h1>I'm Chaitanya — Frontend developer & learner</h1>
+        <p class="lead">I craft responsive websites and web apps using modern HTML, CSS and JavaScript. I enjoy turning ideas into delightful user experiences.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="#contact">Contact</a>
+        </div>
+
+        <div style="margin-top:1.25rem;display:flex;gap:0.75rem;align-items:center">
+          <a href="#projects" class="muted">See latest work</a>
+          <span class="muted">•</span>
+          <a href="#certifications" class="muted">Certifications</a>
+        </div>
+      </div>
+
+      <aside class="profile-card">
+        <img class="avatar" src="images/Profile.jpeg" alt="Profile Photo" />
+        <div style="text-align:center">
+          <div style="font-weight:700">Chaitanya Patgar</div>
+          <div class="small-meta">B.E. Computer Science • 2024</div>
+          <div style="margin-top:0.6rem"><a class="cta" href="#contact">Let's talk</a></div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="grid projects-grid">
+
+        <article class="card">
+          <img src="images/AI TRIP PLANNER.png" alt="Project screenshot">
+          <h3>AI Trip Planner</h3>
+          <div class="meta">React · Tailwind · Node</div>
+          <p class="muted">A web app that generates personalized trip itineraries using prompts and destination data. I implemented the frontend and integrated the places API.</p>
+          <div class="tags">
+            <span class="tag">React</span>
+            <span class="tag">API</span>
+            <span class="tag">Responsive</span>
+          </div>
+          <div style="margin-top:0.75rem;display:flex;gap:0.6rem">
+            <button class="btn btn-ghost" onclick="alert('Coming Soon!')">Demo</button>
+            <button class="btn btn-primary" onclick="">Code</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/PORTFOLIO WEBSITE.png" alt="Project screenshot">
+          <h3>Personal Portfolio</h3>
+          <div class="meta">HTML · CSS · JavaScript</div>
+          <p class="muted">A clean single-page portfolio (this site!). Includes projects, certifications, contact form and responsive layout.</p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Accessibility</span>
+          </div>
+          <div style="margin-top:0.75rem;display:flex;gap:0.6rem">
+            <a class="btn btn-ghost" href="#" target="_blank">Demo</a>
+            <a class="btn btn-ghost" href="#" target="_blank">Code</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/ALARM CLOCK IN PYTHON.png" alt="Project screenshot">
+          <h3>Alarm Clock App</h3>
+          <div class="meta">Python · Tkinter</div>
+          <p class="muted">A simple desktop alarm app built with Python for learning GUI fundamentals and scheduling tasks.</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Desktop</span>
+          </div>
+          <div style="margin-top:0.75rem;display:flex;gap:0.6rem">
+            <a class="btn btn-ghost" href="#" target="_blank">Demo</a>
+            <a class="btn btn-ghost" href="#" target="_blank">Code</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications">
+      <h2 class="section-title">Certifications</h2>
+      <div class="grid cert-grid">
+
+        <article class="card">
+          <div style="display:flex;gap:0.75rem;align-items:center">
+            <img class="cert-logo" src="images/COURSERA.png" alt="Udemy logo">
+            <div>
+              <strong>Google Crash Course On Python</strong>
+              <div class="meta">Coursera · 2024</div>
+            </div>
+          </div>
+          <div class="cert-actions">
+            <button class="btn btn-ghost" data-cert="images\Certificate-Python Course.png">View Certificate</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div style="display:flex;gap:0.75rem;align-items:center">
+            <img class="cert-logo" src="images/LEARN TUBE.jpg" alt="LearnTube logo">
+            <div>
+              <strong>Sofrware Development</strong>
+              <div class="meta">LearnTube · 2024</div>
+            </div>
+          </div>
+          <div class="cert-actions">
+            <button class="btn btn-ghost" data-cert="images/Certificate-LearnTube.jpeg">View Certificate</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div style="display:flex;gap:0.75rem;align-items:center">
+            <img class="cert-logo" src="images/LearnQuest.png" alt="LearnQuest logo">
+            <div>
+              <strong>Basics Of Java</strong>
+              <div class="meta">Learn Quest · 2024</div>
+            </div>
+          </div>
+          <div class="cert-actions">
+            <button class="btn btn-ghost" data-cert="images/Certificate-Introduction To Java.png">View Certificate</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skill-list" style="margin-top:0.5rem">
+        <div class="skill-pill">HTML</div>
+        <div class="skill-pill">CSS</div>
+        <div class="skill-pill">JavaScript</div>
+        <div class="skill-pill">React</div>
+        <div class="skill-pill">Tailwind</div>
+        <div class="skill-pill">Git</div>
+        <div class="skill-pill">Python</div>
+        <div class="skill-pill">Responsive Design</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="grid contact-grid" style="gap:1rem">
+        <div class="card">
+          <p class="muted">Want to work together? Send me a message — I usually reply within a few days.</p>
+          <div style="margin-top:1rem">
+            <div class="row muted"><strong>Email</strong><span style="margin-left:auto">you@example.com</span></div>
+            <div class="row muted" style="margin-top:0.6rem"><strong>Location</strong><span style="margin-left:auto">India</span></div>
+          </div>
+        </div>
+
+        <form class="card" id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Your email" required />
+          <textarea name="message" placeholder="Message" required></textarea>
+          <div style="display:flex;gap:0.6rem">
+            <button class="btn btn-primary" type="submit">Send message</button>
+            <button class="btn btn-ghost" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      © Chaitanya Patgar • Built with ❤️ • <a href="#">Resume</a>
+    </footer>
+  </main>
+
+  <!-- Modal for cert preview -->
+  <div id="modal" role="dialog" aria-hidden="true" style="position:fixed;inset:0;display:none;align-items:center;justify-content:center;padding:2rem;z-index:60">
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(2,6,23,0.7),rgba(2,6,23,0.8));backdrop-filter:blur(4px)"></div>
+    <div style="position:relative;max-width:1100px;width:100%;background:#071226;padding:1rem;border-radius:12px;border:1px solid rgba(255,255,255,0.04);box-shadow:0 20px 60px rgba(2,6,23,0.8)">
+      <button id="modalClose" aria-label="Close" style="position:absolute;right:12px;top:12px;background:transparent;border:none;color:#fff;font-size:1.4rem">✕</button>
+      <img id="modalImg" src="" alt="Certificate preview" style="width:100%;height:600px;object-fit:contain;border-radius:8px" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
